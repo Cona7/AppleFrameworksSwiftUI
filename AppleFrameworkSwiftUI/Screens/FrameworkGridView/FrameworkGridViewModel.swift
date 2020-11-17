@@ -13,4 +13,6 @@ final class FrameworkGridViewModel: ObservableObject {
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
+    
+    let navigationTitle = "Apple Frameworks"
 }

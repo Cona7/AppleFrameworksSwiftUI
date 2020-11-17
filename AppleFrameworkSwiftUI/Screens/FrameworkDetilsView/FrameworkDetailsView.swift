@@ -9,8 +9,6 @@ struct FrameworkDetailsView: View {
     
     var body: some View {
             VStack {
-                DismissButtonView(isShowingDetailsView: $isShowingDetailsView)
-                
                 Spacer()
                 
                 FrameworkGridItemView(framework: framework)
